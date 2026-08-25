@@ -29,29 +29,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
   <style>
-/*
-   AKSHAYA — PORTFOLIO STYLESHEET
-   Table of contents:
-   1. Design Tokens (CSS Custom Properties)
-   2. Reset & Base
-   3. Utilities (glass card, buttons, chips, text gradient)
-   4. Background Atmosphere
-   5. Loader
-   6. Navigation
-   7. Hero
-   8. About
-   9. Skills
-   10. Projects
-   11. Experience Timeline
-   12. Education
-   13. Certifications & Achievements
-   14. Contact
-   15. Footer
-   16. Back to Top
-   17. Scroll Reveal Animations
-   18. Responsive Breakpoints
-    */
-
+    
 /* 1. Design Tokens */
 :root {
   /* Brand palette */
@@ -1288,7 +1266,7 @@ textarea:focus-visible {
         <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
         <li><a href="#about" class="nav-link" data-section="about">About</a></li>
         <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
-        <li><a href="CSS/Projects (1).html" class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="Projects.html" class="nav-link" data-section="projects">Projects</a></li>
         <!-- <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
         <li><a href="#education" class="nav-link" data-section="education">Education</a></li>
         <li><a href="#certifications" class="nav-link" data-section="certifications">Certificates</a></li> -->
@@ -1407,48 +1385,11 @@ I'm committed to continuous learning and creating high quality digital solutions
 value.</p>
 
 
-<!-- <div class="about__stats">
-<div class="stat">
-<span class="stat__number" data-count="3" data-suffix="+">0</span>
-<span class="stat__label">Years Experience</span>
-              </div>
-              <div class="stat">
-                <span class="stat__number" data-count="6" data-suffix="+">0</span>
-                <span class="stat__label">Projects Built</span>
-              </div>
-              <div class="stat">
-                <span class="stat__number" data-count="13" data-suffix="">0</span>
-                <span class="stat__label">SOPs Authored</span>
-              </div>
-              <div class="stat">
-                <span class="stat__number" data-count="40" data-suffix="%">0</span>
-                <span class="stat__label">Workflow Improvement</span>
-              </div>
-            </div>
-          </div> -->
-
-          <!-- <div class="about__panel reveal" data-reveal="left">
-            <div class="glass-card about__info-card">
-              <h3>Quick Info</h3>
-              <ul class="info-list">
-                <li><span>Name</span><strong>Akshaya</strong></li>
-                <li><span>Role</span><strong>Full Stack Developer</strong></li>
-                <li><span>Location</span><strong>Tamil Nadu, India</strong></li>
-                <li><span>Experience</span><strong>3+ Years</strong></li>
-                <li><span>Previously</span><strong>TCS &mdash; Process Associate</strong></li>
-                <li><span>Focus</span><strong>Web &amp; Mobile Apps</strong></li>
-              </ul> -->
-              <!-- <div class="info-list__traits">
-                <span class="tag">Analytical</span>
-                <span class="tag">Team Player</span>
-                <span class="tag">Fast Learner</span>
-                <span class="tag">Clean Code</span>
-              </div> -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+</div>
+</div>
+</div>
+</div>
+</section>
 
 <!-- SKILLS -->
     <section class="section section--alt" id="skills">
@@ -1529,315 +1470,6 @@ value.</p>
       </div>
     </section>
 
-<!-- PROJECTS -->
-    <!-- <section class="section" id="projects">
-      <div class="section__container">
-        <div class="section__header reveal" data-reveal="up">
-          <p class="section__eyebrow">Selected Work</p>
-          <h2 class="section__title">Projects</h2>
-        </div>
-
-        <div class="filter-bar reveal" data-reveal="up" role="tablist" aria-label="Filter projects by category">
-          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
-          <button class="filter-btn" data-filter="fullstack" role="tab" aria-selected="false">Full Stack</button>
-          <button class="filter-btn" data-filter="database" role="tab" aria-selected="false">Database</button>
-          <button class="filter-btn" data-filter="uiux" role="tab" aria-selected="false">UI/UX</button>
-        </div>
-
-        <div class="projects__grid" id="projectsGrid"> -->
-
-          <!-- Project 1 -->
-          <!-- <article class="project-card glass-card reveal" data-reveal="up" data-category="database fullstack">
-            <div class="project-card__top">
-              <span class="project-card__icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
-              </span>
-              <div class="project-card__links">
-                <a href="https://github.com/akshayaravi-chandran" target="_blank" class="icon-link" aria-label="View source code on GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 00-3.79 23.4c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 016 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.49 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0012 .5z"></path></svg></a>
-                <a href="#" class="icon-link" aria-label="View live demo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path><path d="M15 3h6v6M10 14L21 3"></path></svg></a>
-              </div>
-            </div>
-            <h3 class="project-card__title">Delivery Optimization &amp; Route Tracking System</h3>
-            <p class="project-card__desc">
-              Designed and queried a relational database in MySQL to optimize delivery routes and
-              reduce delivery time, using SQL aggregate functions such as GROUP BY and HAVING to
-              generate performance reports on delivery efficiency.
-            </p>
-            <ul class="project-card__features">
-              <li>Customer Management</li>
-              <li>Driver Assignment</li>
-              <li>Route Optimization</li>
-              <li>Delivery Tracking Dashboard</li>
-            </ul>
-            <div class="project-card__tags">
-              <span class="chip">MySQL</span>
-              <span class="chip">SQL</span>
-              <span class="chip">Database Design</span>
-            </div>
-          </article> -->
-
-          <!-- Project 2 -->
-          <!-- <article class="project-card glass-card reveal" data-reveal="up" data-category="fullstack">
-            <div class="project-card__top">
-              <span class="project-card__icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
-              </span>
-              <div class="project-card__links">
-                <a href="https://github.com/akshayaravi-chandran" target="_blank" class="icon-link" aria-label="View source code on GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 00-3.79 23.4c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 016 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.49 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0012 .5z"></path></svg></a>
-                <a href="#" class="icon-link" aria-label="View live demo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path><path d="M15 3h6v6M10 14L21 3"></path></svg></a>
-              </div>
-            </div>
-            <h3 class="project-card__title">LifeLink AI &mdash; Emergency Medical Response System</h3>
-            <p class="project-card__desc">
-              Built at a 2026 Codathon with a team of 4. A three-panel dashboard for patient
-              assessment, hospital ranking, and live map tracking, powered by a rule-based AI model
-              that scores patient severity in real time from vitals and reported symptoms.
-            </p>
-            <ul class="project-card__features">
-              <li>Real-Time Severity Scoring</li>
-              <li>Hospital Ranking Engine</li>
-              <li>Live Map &amp; Pre-Alert Tracking</li>
-              <li>Rapid MySQL &rarr; SQLite Migration</li>
-            </ul>
-            <div class="project-card__tags">
-              <span class="chip">Flask</span>
-              <span class="chip">SQLite</span>
-              <span class="chip">HTML/CSS/JS</span>
-            </div>
-          </article> -->
-
-          <!-- Project 3 - Theneer -->
-          <!-- <article class="project-card glass-card reveal" data-reveal="up" data-category="database fullstack">
-            <div class="project-card__top">
-              <span class="project-card__icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
-              </span>
-              <div class="project-card__links">
-                <a href="https://github.com/akshayaravi-chandran" target="_blank" class="icon-link" aria-label="View source code on GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 00-3.79 23.4c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 016 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.49 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0012 .5z"></path></svg></a>
-                <a href="#" class="icon-link" aria-label="View live demo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path><path d="M15 3h6v6M10 14L21 3"></path></svg></a>
-              </div>
-            </div>
-            <h3 class="project-card__title">Theneer &mdash; Coffee &amp; Snack Ordering App</h3>
-            <p class="project-card__desc">
-              A Google UX Professional Certification project. Designed a mobile app that simplifies
-              ordering coffee and healthy snacks for busy professionals and students, featuring
-              customization, pre-ordering, and self-pickup.
-            </p>
-            <ul class="project-card__features">
-              <li>Order Customization</li>
-              <li>Pre-Ordering Flow</li>
-              <li>Self-Pickup Scheduling</li>
-            </ul>
-            <div class="project-card__tags">
-              <span class="chip">Figma</span>
-              <span class="chip">UX Research</span>
-              <span class="chip">Prototyping</span>
-            </div>
-          </article> -->
-
-          <!-- Project 4 - Pet Adoption -->
-          <!-- <article class="project-card glass-card reveal" data-reveal="up" data-category="database fullstack">
-            <div class="project-card__top">
-              <span class="project-card__icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
-              </span>
-              <div class="project-card__links">
-                <a href="https://github.com/akshayaravi-chandran" target="_blank" class="icon-link" aria-label="View source code on GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 00-3.79 23.4c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 016 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.49 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0012 .5z"></path></svg></a>
-                <a href="#" class="icon-link" aria-label="View live demo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path><path d="M15 3h6v6M10 14L21 3"></path></svg></a>
-              </div>
-            </div>
-            <h3 class="project-card__title">Pet Adoption Platform</h3>
-            <p class="project-card__desc">
-              A Google UX Professional Certification project. A user-friendly web platform connecting
-              people with animal shelters, including shelter visit scheduling and online veterinary
-              advice.
-            </p>
-            <ul class="project-card__features">
-              <li>Shelter Visit Scheduling</li>
-              <li>Online Vet Advice</li>
-              <li>Adoptable Pet Browsing</li>
-            </ul>
-            <div class="project-card__tags">
-              <span class="chip">Figma</span>
-              <span class="chip">Wireframing</span>
-              <span class="chip">Usability Testing</span>
-            </div>
-          </article> -->
-
-          <!-- Project 5 - Accessible Cookbook -->
-          <!-- <article class="project-card glass-card reveal" data-reveal="up" data-category="database fullstack">
-            <div class="project-card__top">
-              <span class="project-card__icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
-              </span>
-              <div class="project-card__links">
-                <a href="https://github.com/akshayaravi-chandran" target="_blank" class="icon-link" aria-label="View source code on GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 00-3.79 23.4c.6.11.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5 1 .11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.12-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 016 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.49 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58A12 12 0 0012 .5z"></path></svg></a>
-                <a href="#" class="icon-link" aria-label="View live demo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path><path d="M15 3h6v6M10 14L21 3"></path></svg></a>
-              </div>
-            </div>
-            <h3 class="project-card__title">Accessible Cookbook</h3>
-            <p class="project-card__desc">
-              A Google UX Professional Certification project. An accessibility-focused cookbook
-              website built for visually impaired users, featuring screen-reader-friendly navigation
-              and text-to-speech options.
-            </p>
-            <ul class="project-card__features">
-              <li>Screen-Reader Optimized</li>
-              <li>Text-to-Speech Recipes</li>
-              <li>High-Contrast Navigation</li>
-            </ul>
-            <div class="project-card__tags">
-              <span class="chip">Figma</span>
-              <span class="chip">Accessibility</span>
-              <span class="chip">UX Research</span>
-            </div>
-          </article>
-
-        </div>
-      </div>
-    </section> -->
-
-    <!-- ============ EXPERIENCE ============ -->
-    <!-- <section class="section section--alt" id="experience">
-      <div class="section__container">
-        <div class="section__header reveal" data-reveal="up">
-          <p class="section__eyebrow">Where I've Been</p>
-          <h2 class="section__title">Experience</h2>
-        </div>
-
-        <div class="timeline">
-          <div class="timeline__item reveal" data-reveal="up">
-            <div class="timeline__marker" aria-hidden="true"></div>
-            <div class="glass-card timeline__card">
-              <div class="timeline__card-head">
-                <div>
-                  <h3>Information Processing Specialist <span>(Merchandising Assistant)</span></h3>
-                  <p class="timeline__org">Tata Consultancy Services (TCS) &middot; Chennai, Tamil Nadu</p>
-                </div>
-                <span class="timeline__date">2022 &ndash; 2025</span>
-              </div>
-              <ul class="timeline__list">
-                <li>Assisted in managing merchant-related operations, improving overall workflow and operational efficiency by <strong>100%</strong>.</li>
-                <li>Collaborated with Master Data Management, Suppliers/Vendors, Category Managers, Transportation, and Supply Chain teams to support inventory management, pricing updates, catalog management, and vendor setups.</li>
-                <li>Partnered with clients to pilot and implement a new process that improved workflow outcomes by <strong>40%</strong>.</li>
-                <li>Created and analyzed reports to support data-driven decision making.</li>
-                <li>Delivered daily task guidance to team members and led organized daily task reviews to ensure quality execution.</li>
-                <li>Organized and moderated team discussions to brainstorm solutions for process challenges, improving workflows by <strong>20%</strong>.</li>
-                <li>Authored and maintained <strong>13 Standard Operating Procedures (SOPs)</strong> to streamline operations and ensure process consistency and compliance.</li>
-              </ul>
-              <div class="timeline__tags">
-                <span class="chip">Process Optimization</span>
-                <span class="chip">Data Validation</span>
-                <span class="chip">Quality Assurance</span>
-                <span class="chip">Excel Reporting</span>
-                <span class="chip">Vendor Coordination</span>
-                <span class="chip">Cross-Functional Collaboration</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <!-- ============ EDUCATION ============ -->
-    <!-- <section class="section" id="education">
-      <div class="section__container">
-        <div class="section__header reveal" data-reveal="up">
-          <p class="section__eyebrow">Academic Background</p>
-          <h2 class="section__title">Education</h2>
-        </div>
-
-        <div class="education__grid">
-          <div class="glass-card education__card reveal" data-reveal="up">
-            <span class="education__icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10L12 5 2 10l10 5 10-5z"></path><path d="M6 12v5c0 1.66 2.69 3 6 3s6-1.34 6-3v-5"></path></svg>
-            </span>
-            <h3>Master of Business Administration <span>(MBA)</span></h3>
-            <p class="education__meta"> Pondicherry University &middot; 2024</p>
-          </div>
-
-          <div class="glass-card education__card reveal" data-reveal="up">
-            <span class="education__icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10L12 5 2 10l10 5 10-5z"></path><path d="M6 12v5c0 1.66 2.69 3 6 3s6-1.34 6-3v-5"></path></svg>
-            </span>
-            <h3>Bachelor of Business Administration <span>(BBA)</span></h3>
-            <p class="education__meta"> University of Madras &middot; 2021</p>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <!-- ============ CERTIFICATIONS ============ -->
-    <!-- <section class="section section--alt" id="certifications">
-      <div class="section__container">
-        <div class="section__header reveal" data-reveal="up">
-          <p class="section__eyebrow">Verified Learning</p>
-          <h2 class="section__title">Certifications</h2>
-        </div>
-
-        <div class="cert__grid">
-          <div class="glass-card cert__card reveal" data-reveal="up">
-            <span class="cert__icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"></circle><path d="M15.5 13.5L17 22l-5-3-5 3 1.5-8.5"></path></svg>
-            </span>
-            <h3>Google UX Design Professional Certificate</h3>
-            <p>Coursera</p>
-          </div>
-          <div class="glass-card cert__card reveal" data-reveal="up">
-            <span class="cert__icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"></circle><path d="M15.5 13.5L17 22l-5-3-5 3 1.5-8.5"></path></svg>
-            </span>
-            <h3>Full Stack Python Certification</h3>
-            <p>Beseant Technologies</p>
-          </div>
-          <div class="glass-card cert__card reveal" data-reveal="up">
-            <span class="cert__icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"></circle><path d="M15.5 13.5L17 22l-5-3-5 3 1.5-8.5"></path></svg>
-            </span>
-            <h3>Agile Methodology</h3>
-            <p>TCS &mdash; Talent Development</p>
-          </div>
-        </div>-->
-
-<!-- ACHIEVEMENTS -->
-        <!-- <div class="section__header section__header--sub reveal" data-reveal="up">
-          <p class="section__eyebrow">Recognition</p>
-          <h2 class="section__title">Achievements</h2>
-        </div>
-
-        <div class="achievements__grid">
-          <div class="glass-card achievement__card reveal" data-reveal="up">
-            <span class="achievement__icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 15a6 6 0 100-12 6 6 0 000 12z"></path><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"></path></svg>
-            </span>
-            <h3>Excellent Quality Scores</h3>
-            <p>Consistently delivered high-accuracy work recognized in internal quality reviews.</p>
-          </div>
-          <div class="glass-card achievement__card reveal" data-reveal="up">
-            <span class="achievement__icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
-            </span>
-            <h3>Process Improvement Initiatives</h3>
-            <p>Piloted and implemented process changes that measurably improved team workflows.</p>
-          </div>
-          <div class="glass-card achievement__card reveal" data-reveal="up">
-            <span class="achievement__icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9M16.5 3.5a2.12 2.12 0 013 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
-            </span>
-            <h3>Knowledge Sharing</h3>
-            <p>Authored SOPs and mentored teammates to keep operational knowledge accessible.</p>
-          </div>
-          <div class="glass-card achievement__card reveal" data-reveal="up">
-            <span class="achievement__icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"></path></svg>
-            </span>
-            <h3>Cross-Team Collaboration</h3>
-            <p>Worked seamlessly across data, vendor, and supply-chain teams to unblock delivery.</p>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
 <!-- CONTACT -->
     <section class="section" id="contact">
       <div class="section__container">
@@ -1879,15 +1511,6 @@ value.</p>
                 <em>Akshaya-Ravi02</em>
               </span>
             </a>
-            <!-- <a href="https://your-portfolio-url.example.com" target="_blank" rel="noopener noreferrer" class="contact__item glass-card">
-              <span class="contact__icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M2 12h20M12 2a15.3 15.3 0 010 20 15.3 15.3 0 010-20z"></path></svg>
-              </span> -->
-              <!-- <span>
-                <strong>Portfolio</strong>
-                <em>your-portfolio-url.example.com</em>
-              </span> -->
-            <!-- </a> -->
           </div>
 
           <form class="contact__form glass-card reveal" data-reveal="right" id="contactForm" novalidate>
@@ -1941,7 +1564,7 @@ value.</p>
         <h4>Navigate</h4>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
+        <a href="Projects.html">Projects</a>
         <a href="#contact">Contact</a>
       </div>
 
